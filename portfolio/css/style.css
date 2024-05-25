@@ -49,6 +49,11 @@ header {
 	position: relative;
 	/*background: url(../images/mainimg.jpg) no-repeat center center / cover;	/*背景画像の読み込み*/
 }
+header #name h1 {
+	position: absolute;
+	left: 40%;		/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
+	bottom: 50%;	
+}
 /*ロゴ画像*/
 header #logo img {
 	display: block;
