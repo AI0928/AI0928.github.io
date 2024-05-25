@@ -45,7 +45,7 @@ a:hover {
 /*ヘッダー（一番上の、ロゴやメニューが入っているブロック）
 ---------------------------------------------------------------------------*/
 header {
-	height: 30%;
+	height: 10%;
 	overflow: auto;
 	position: relative;
 	/*background: url(../images/mainimg.jpg) no-repeat center center / cover;	/*背景画像の読み込み*/
@@ -69,7 +69,7 @@ header #logo img {
 /*メニューブロック全体への指定*/
 #menubar {
 	position: absolute;
-	bottom: 20%;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
+	bottom: 0%;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
 	left: 0px;
 	width: 100%;
 	text-align: center;
